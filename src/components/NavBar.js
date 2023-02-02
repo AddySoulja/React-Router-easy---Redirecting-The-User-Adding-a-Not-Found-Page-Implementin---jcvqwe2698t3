@@ -7,14 +7,24 @@ export const NavBar = () => {
     <div>
       <nav>
         <ul>
-          <li className="index-link">
-            <Link to="/">Index page</Link>
+          <li>
+            <Link to="/"  className="index-link">Index page</Link>
           </li>
-          <li className="home-link">
-            <Link to="/home">Home page</Link>
+          <li >
+            <Link to="/home" className="home-link">Home page</Link>
           </li>
         </ul>
       </nav>
     </div>
+    // <nav>
+    //   <ul>
+    //     <li >
+    //       <Link to="/home" className="home-link">Home Page</Link>
+    //     </li>
+    //     <li>
+    //       <Link to="/" className="index-link">Index Page</Link>
+    //     </li>
+    //   </ul>
+    // </nav>
   );
 };

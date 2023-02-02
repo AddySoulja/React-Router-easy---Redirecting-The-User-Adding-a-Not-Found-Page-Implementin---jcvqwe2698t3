@@ -8,8 +8,8 @@ export const AppRoutes = () => {
   return (
     <Routes>
       <Route exact path="/" element={<Index />} />
-      <Route exact path="/home" element={<Home />} />
-      <Route exact path="*" element={<NotFound />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="*" element={<NotFound />} />
     </Routes>
   );
 };
